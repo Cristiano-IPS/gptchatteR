@@ -108,7 +108,7 @@ chatter.auth <- function(openai_secret_key = NULL) {
 #' \code{\link{chatter.chat}},\code{\link{chatter.plot}}
 #'
 #' @importFrom openai create_completion
-chatter.create <- function(model = "text-davinci-003",
+chatter.create <- function(model = "gpt-3.5-turbo-instruct",
                            temperature = 0.5,
                            max_tokens = 100,
                            ...) {
