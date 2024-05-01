@@ -88,7 +88,7 @@ chatter.auth <- function(openai_secret_key = NULL) {
 
 #' Create an OpenAI chatterbot
 #'
-#' @param model The OpenAI model to use (default is \code{text-davinci-003})
+#' @param model The OpenAI model to use (default is \code{gpt-3.5-turbo-instruct})
 #' @param temperature Float between 0 and 1, representing the degree of
 #' randomness (default is \code{0.5})
 #' @param max_tokens Maximum number of tokens to generate
