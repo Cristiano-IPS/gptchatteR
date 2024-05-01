@@ -5,14 +5,14 @@
 \title{Create an OpenAI chatterbot}
 \usage{
 chatter.create(
-  model = "text-davinci-003",
+  model = "gpt-3.5-turbo-instruct",
   temperature = 0.5,
   max_tokens = 100,
   ...
 )
 }
 \arguments{
-\item{model}{The OpenAI model to use (default is \code{text-davinci-003})}
+\item{model}{The OpenAI model to use (default is \code{gpt-3.5-turbo-instruct})}
 
 \item{temperature}{Float between 0 and 1, representing the degree of
 randomness (default is \code{0.5})}
